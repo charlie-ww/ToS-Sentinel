@@ -101,13 +101,13 @@ gcloud services enable run.googleapis.com cloudbuild.googleapis.com artifactregi
 
 ```powershell
 # 部署 Backend（請將 your_api_key 替換為真實的 Gemini Key）
-gcloud run deploy tos-sentinel-backend `
-  --source ./backend `
-  --region asia-east1 `
-  --memory 2Gi `
-  --timeout 3600 `
-  --set-env-vars GEMINI_API_KEY=your_gemini_api_key `
-  --allow-unauthenticated `
+gcloud run deploy tos-sentinel-backend 
+  --source ./backend 
+  --region asia-east1 
+  --memory 2Gi 
+  --timeout 3600 
+  --set-env-vars GEMINI_API_KEY=your_gemini_api_key 
+  --allow-unauthenticated 
   --port 8000
 ```
 
@@ -119,12 +119,12 @@ gcloud run deploy tos-sentinel-backend `
 
 ```powershell
 # 部署 Frontend (將 $BACKEND_URL 替換為步驟 2 拿到的網址)
-gcloud run deploy tos-sentinel-frontend `
-  --source ./frontend `
-  --region asia-east1 `
-  --memory 1Gi `
-  --set-env-vars BACKEND_URL=[https://你的-backend-網址.run.app](https://你的-backend-網址.run.app) `
-  --allow-unauthenticated `
+gcloud run deploy tos-sentinel-frontend 
+  --source ./frontend 
+  --region asia-east1 
+  --memory 1Gi 
+  --set-env-vars BACKEND_URL=[https://你的-backend-網址.run.app](https://你的-backend-網址.run.app) 
+  --allow-unauthenticated 
   --port 8080
 ```
 
