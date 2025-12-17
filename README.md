@@ -420,17 +420,6 @@ ToS-Sentinel_cloud/
 
 ---
 
-## 📞 聯絡資訊
-
-**開發者**: 張恬嘉  
-**學號**: 314511043  
-**課程**: Cloud Computing and Data Analytics  
-**學期**: 2025 Fall  
-**專案連結**: GitHub Repository  
-**線上展示**: Frontend URL
-
----
-
 ## 📄 授權與致謝
 
 ### 使用的第三方服務
@@ -440,10 +429,6 @@ ToS-Sentinel_cloud/
 - **Streamlit** - [Apache License 2.0](https://github.com/streamlit/streamlit/blob/develop/LICENSE)
 - **FastAPI** - [MIT License](https://github.com/tiangolo/fastapi/blob/master/LICENSE)
 
-### 致謝
-- 感謝課程教授的指導
-- 感謝 AI 工具在開發過程中的協助
-- 感謝開源社群提供的優秀工具
 
 ---
 
